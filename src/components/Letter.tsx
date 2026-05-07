@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 
 interface LetterProps {
   isVisible: boolean;
@@ -8,7 +8,7 @@ interface LetterProps {
 export const Letter: React.FC<LetterProps> = ({ isVisible }) => {
   if (!isVisible) return null;
 
-  const letterVariants = {
+  const letterVariants: Variants = {
     hidden: { opacity: 0, y: 50, scale: 0.95 },
     visible: { 
       opacity: 1, 
@@ -23,7 +23,7 @@ export const Letter: React.FC<LetterProps> = ({ isVisible }) => {
     }
   };
 
-  const textVariants = {
+  const textVariants: Variants = {
     hidden: { opacity: 0, y: 10 },
     visible: { 
       opacity: 1, 
