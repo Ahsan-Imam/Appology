@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Background } from './components/Background';
 import { LandingScreen } from './components/LandingScreen';
 import { Letter } from './components/Letter';
