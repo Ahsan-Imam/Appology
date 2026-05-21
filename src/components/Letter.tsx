@@ -62,7 +62,7 @@ export const Letter: React.FC<LetterProps> = ({ isVisible }) => {
           <motion.p variants={textVariants}>
             I should have thought before I spoke,<br />
             and I genuinely regret that I made you feel that way.<br />
-            last worst thing i will do to hurt anyone.
+            last worst thing i dont want to do that hurt's anyone.
           </motion.p>
 
           <motion.p variants={textVariants}>
