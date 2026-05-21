@@ -15,7 +15,7 @@ export const LandingScreen: React.FC<LandingScreenProps> = ({ isOpen, onOpen }) 
         opacity: isOpen ? 0 : 1,
         y: isOpen ? -50 : 0
       }}
-      transition={{ duration: 1, delay: isOpen ? 1.5 : 0 }} // Delay fade out until envelope animation finishes
+      transition={{ duration: 1, delay: isOpen ? 1.5 : 0 }}
       style={{ pointerEvents: isOpen ? 'none' : 'auto' }}
     >
       <motion.div
@@ -25,10 +25,10 @@ export const LandingScreen: React.FC<LandingScreenProps> = ({ isOpen, onOpen }) 
         className="text-center mb-12"
       >
         <h1 className="font-playfair text-3xl md:text-4xl font-semibold text-gray-800 mb-4 tracking-wide">
-          A letter I should’ve said earlier.
+          Apology
         </h1>
         <p className="font-poppins text-gray-500 text-sm md:text-base italic">
-          "Some feelings are easier written than spoken."
+          "I'm sorry for hurting you by asking that question."
         </p>
       </motion.div>
 
