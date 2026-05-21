@@ -45,7 +45,7 @@ export const Letter: React.FC<LetterProps> = ({ isVisible }) => {
 
         <div className="relative z-10 font-poppins text-gray-700 leading-relaxed text-[15px] md:text-[16px] space-y-6">
           <motion.p variants={textVariants} className="font-semibold text-lg mb-8">
-            Pitti JI,
+            HEY AAYESHA,
           </motion.p>
 
           <motion.p variants={textVariants}>
@@ -62,13 +62,13 @@ export const Letter: React.FC<LetterProps> = ({ isVisible }) => {
           <motion.p variants={textVariants}>
             I should have thought before I spoke,<br />
             and I genuinely regret that I made you feel that way.<br />
-            You didn't deserve that.
+            last worst thing i will do to hurt anyone.
           </motion.p>
 
           <motion.p variants={textVariants}>
             Please accept my apology.<br />
-            I truly am sorry, and I hope you can find it<br />
-            in your heart to pardon me. 🤍
+            I truly am sorry, and I hope you can <br />
+             pardon me.
           </motion.p>
         </div>
       </div>
